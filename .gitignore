@@ -1,22 +1,6 @@
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-/.classpath
-/.project
-/LICENSE.txt
-/.settings/
-/jtest.fil
-/.travis.yml~
-/target/
-/.metadata/
-/RemoteSystemsTempFiles/
-/.apt_generated/
-/.factorypath
-/target/
-/nom-tam-fits.sonargraph/
-/target/
-.idea
-nom-tam-fits.iml
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+/.idea/
