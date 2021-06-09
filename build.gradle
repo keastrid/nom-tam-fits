@@ -31,6 +31,8 @@ dependencies {
     testImplementation "org.openjdk.jmh:jmh-generator-annprocess:1.11.2"
 }
 
+test.onlyIf { project.hasProperty('runTests') }
+
 test {
     useJUnitPlatform()
 }
